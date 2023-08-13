@@ -1,0 +1,57 @@
+:root {
+  --body-bg: rgb(204, 204, 204);
+  --white: #ffffff;
+  --darkWhite: #ccc;
+  --black: #000000;
+  --dark: #615c60;
+  --themeColor: #478ac9;
+  --pageShadow: 0 0 0.5cm rgba(0, 0, 0, 0.5);
+}
+
+/* Font Include */
+@import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@600&display=swap");
+
+.invoice {
+  width: 60%;
+  margin: auto;
+  margin-bottom: 50px;
+}
+
+thead {
+  width: 50%;
+}
+
+.invoice-title {
+  background: #478ac9;
+  color: white;
+  font-weight: bold;
+}
+.table td,
+.table th {
+  vertical-align: middle;
+}
+
+tr th:first-child,
+tr td:first-child {
+  border: none;
+  text-align: right;
+}
+
+/* Balance Info Section */
+.balance-info .table td,
+.balance-info .table th {
+  padding: 0;
+  border: 0;
+}
+
+.balance-info tr td:first-child {
+  font-weight: 600;
+}
+
+tfoot {
+  border-top: 2px solid var(--darkWhite);
+}
+
+tfoot td {
+  font-weight: 600;
+}

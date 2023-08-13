@@ -1,0 +1,103 @@
+* {
+  font-family: calibri;
+}
+input:invalid {
+  background: pink;
+}
+.input-form {
+  width: 95%;
+  background: #f9f9f9;
+  margin: 0.9%;
+  padding: 10px;
+  border: none;
+  border-radius: 10px !important;
+}
+.input-form-number {
+  width: 20%;
+  background: #f9f9f9;
+  margin: 10px 1px;
+  margin-bottom: 40px;
+  padding: 10px;
+  border: none;
+  border-radius: 10px !important;
+}
+.input-form-value {
+  width: 57.5%;
+  background: #f9f9f9;
+  margin: 1%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px !important;
+}
+.btn-form-change {
+  color: white;
+  background: #ff6868;
+  font-weight: bold;
+  border: none;
+  border-radius: 50px !important;
+  padding: 15px;
+  margin: 10px;
+  width: 35%;
+  float: left;
+  margin-left: 20px;
+  cursor: pointer;
+}
+.btn-form-pay {
+  color: white;
+  background: #68a2ff;
+  font-weight: bold;
+  border: none;
+  border-radius: 50px !important;
+  padding: 15px;
+  margin: 10px;
+  width: 35%;
+  float: right;
+  cursor: pointer;
+}
+
+label.metodeBayar {
+  font-size: 1.2rem;
+  margin: 20px 0px;
+}
+.btn-form-pay:hover {
+  background: #66bef9;
+}
+.btn-form-change:hover {
+  background: #fc7979;
+}
+table {
+  margin-top: 5px;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  background: white;
+  margin: 20px;
+}
+
+th:hover {
+  box-shadow: 2px 0px 10px 0px #f4f4f4;
+  border: 1px solid #68a2ff;
+}
+th {
+  border: 1px solid #f4f4f4;
+}
+@media only screen and (max-width: 700px) {
+  .container {
+    width: 80%;
+    left: 6%;
+  }
+  .input-form-value {
+    width: 49%;
+  }
+}
+
+footer {
+  background: white;
+  width: 100%;
+  height: 40px;
+  position: absolute;
+  bottom: 0;
+}
